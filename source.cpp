@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
 int tong(int a, int b);
-int hieu(int a, int b);
+
+int hieu(int a, int b)
+{
+	return a-b;
+}
 
 int main()
 {
@@ -11,8 +15,8 @@ int main()
 	cin >> a;
 	cout << "Nhap so nguyen 2: ";
 	cin >> b;
-	cout << "Chon phep toan (+,-) ";
-	cin >> phepToan;
+	cout << "Phep toan tru: ";
+	cin >> hieu(a, b);
 	system("pause");
 	return 0;
 }
