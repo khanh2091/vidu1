@@ -38,7 +38,8 @@ int main()
 	cin >> tong(a, b);
 >>>>>>> bf8d1cd75aa281bbc7033c38a236bacd041cbce8
 	//User2 
-	//Chuc nang nhan///////////
+	//Chuc nang nhan - nhanh tich///////////
+	int tich  = a * b;
 	cout << "Chon phep toan cong:  ";
 	cin >> nhan(a, b);
 	cout << "Chon phep toan cong:  ";
